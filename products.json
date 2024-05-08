@@ -1,0 +1,113 @@
+( // product name, product price, product description, and photo location)
+[
+    {
+        "cameraName": "ARRI ALEXA SXT Plus",
+        "image": "https://www.bhphotovideo.com/images/images2000x2000/arri_k1_0006383_alexa_sxt_plus_camera_1294537.jpg",
+        "price": 7000,
+        "description": [
+            [
+                "35mm ARRI ALEV III CMOS Sensor",
+                "4K UHD 3840 x 2160 (Up-Sampled 3.2K)",
+                "Multiple 4/2.8/2.6/2K Anamorphic Modes",
+                "Built-In Remote Camera & Lens Control"
+            ]
+        ]
+    },
+    {
+        "cameraName": "Sony PXW-Z190 4K 3-CMOS 1/3 inch Sensor XDCAM Camcorder",
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/sony_pxw_z190_4k_3_cmos_1_3_1400754.jpg",
+        "price": 2000,
+        "description": [
+            "Three 1/3 Exmor R CMOS Sensors",
+            "4K 60p Recording",
+            "Integrated 25x Sony G Optical Zoom Lens",
+            "Electronic Variable ND Filter"
+        ]
+    },
+    {
+        "cameraName": "Blackmagic Design URSA Cine 12K LF Camera (PL Mount)",
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/blackmagic_design_blursac12klf_ursa_cine_12k_camera_1823587.jpg",
+        "price": 14000,
+        "description": [
+            "Large Format Full-Frame 12K Sensor",
+            "16 Stops of Dynamic Range",
+            "Blackmagic RAW up to 12K 3:2 Open Gate",
+            "Stream via RTMP/SRT via Wi-Fi/RJ45/USB-C"
+        ]
+    },
+    {
+        "cameraName": "Sony PXW-Z90V 4K HD Compact NXCAM Camcorder",
+        "image": "https://m.media-amazon.com/images/I/718VPFpXDCL._AC_SX679_.jpg",
+        "price": 1700,
+        "description": [
+            "Super-35mm CMOS Sensor",
+            "4608 x 2592 Video up to 60p",
+            "Compressed Raw Recording",
+            "Ready-to-Edit ProRes 444 + 422 Recording"
+        ]
+    },
+    {
+        "cameraName": "Sony PXW-Z90V 4K HD Compact NXCAM Camcorder",
+        "image": "https://m.media-amazon.com/images/I/718VPFpXDCL._AC_SX679_.jpg",
+        "price": 1700,
+        "description": [
+            "Fast Hybrid Auto Focus with advanced features",
+            "Instant HDR workflow w/ HLG",
+            "Super Slow/ S&Q Motion in Full HD XAVC 10-bit 4:2:2",
+            "2.4/5 GHz Wi-Fi networking with support for XDCAM Air production system"
+        ]
+    },
+    {
+        "cameraName": "Blackmagic Design Pocket Cinema Camera 6K G2",
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/blackmagic_design_pocket_cinema_camera_6k_1713293.jpg",
+        "price": 1500,
+        "description": [
+            "Super 35 HDR Sensor, Gen 5 Color Science",
+            "Canon Active EF Mount, Mini XLR Inputs",
+            "5 inch Tilting LCD Touchscreen",
+            "Record 6K 6144 x 3456 up to 50 fps"
+        ]
+    },
+    {
+        "cameraName": "JVC 4KCAM GY-HM170U - camcorder - Fujinon - storage: flash card",
+        "image": "https://webobjects2.cdw.com/is/image/CDW/4024902?$product-detail$",
+        "price": 1600,
+        "description": [
+            "It can record with an Aspect Ratio of 16:9",
+            "Audio Signal Format Dolby Digital AC-3 which makes the quality Stereo",
+            "Record 6K 6144 x 3456 up to 50 fps",
+            "It can operate in humidity of 30 - 80%"
+        ]
+    },
+    {
+        "cameraName": "SonyFX6 Digital Cinema Camera Kit with 24-105mm Lens",
+        "image": "https://cipher.dakiscdn.com/i/https://1410dd2bdd37e05ebf19-a2305060cc55ab8db83b1ef4b8835a6b.ssl.cf5.rackcdn.com/V5WugiDm8fMUWzmuuHmToA?w=572&h=572&p=1&a=1&q=display",
+        "price": 7000,
+        "description": [
+            "High-definition 2.76 million-dot flexible LCD touch panel",
+            "Smart Handle with a Smart grip",
+            "Two CFexpress Type A-compatible media slots",
+            "Reliable durability and weather resistance in tough situations"
+        ]
+    },
+    {
+        "cameraName": "Sony PXW-FX9K XDCAM 6K Full-Frame Camera System With 28-135mm F/4 G OSS Lens",
+        "image": "https://www.google.com/url?q=https://ssephotovideo.com/sony_pxwfx9k_xdcam_6k_fullframe_camera_system_with_28135mm_f4_g_oss_lens_5296929.php%3Futm_source%3Dgoogleshopping%26utm_campaign%3Dgoogleshopping%26utm_content%3D5296929&opi=95576897&sa=U&ved=0ahUKEwjck-zlzP6FAxVcLdAFHbWLCkgQrzwI9A0&usg=AOvVaw3YZaQChJ6YTPkmiBy2a9Te",
+        "price": 10000,
+        "description": [
+            "4K capturing with oversampled 6K Full-frame Exmor R sensor",
+            "Dual Base ISO of 800/4000",
+            "Cinematic color science out of the box with S-Cinetone"
+        ]
+    },
+    {
+        "cameraName": "Tilta Camera Cage Kit A for Canon C300 Mark III & C500 Mark II",
+        "image": "https://www.bhphotovideo.com/images/images2500x2500/tilta_es_t19_a_camera_cage_kit_a_1625839.jpg",
+        "price": 640,
+        "description": [
+            "4K capturing with oversampled 6K Full-frame Exmor R sensor",
+            "Dual Base ISO of 800/4000",
+            "Cinematic color science out of the box with S-Cinetone"
+        ]
+    },
+]
