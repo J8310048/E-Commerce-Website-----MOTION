@@ -153,6 +153,14 @@ img {
     right: 150px;
 }
 
+/* this is for the About us header */
+main h2 {
+    position: relative;
+    margin: 10% 5%;
+    left: 38%;
+    top: 40vh;
+}
+
 main form {
     display: flex;
     flex-direction: column;
