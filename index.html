@@ -10,8 +10,12 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div id="motion-logo">
+                <h1>MOTION</h1>
+            </div>
+            <div><!-- This is a divider. It puts space in between my logo and navlinks --></div>
+            <ul id="links">
                 <a href="index.html">
                     <li>home</li>
                 </a>
@@ -23,36 +27,54 @@
                 </a>
             </ul>
         </nav>
-        <div class="hero-background">
-            <h2>calling all filmmakers!</h2>
-            <h5>get cameras at the half the price</h5>
-            <a href="products.html">
-                <button class="shop-now">Shop Now</button>
-            </a>
+        <div>
+            <div class="hero-background"></div>
+            <div class="hero-header">
+                <h2>shoot your films with better quality</h2>
+                <h5>get cameras at the half the price</h5>
+                <a href="products.html">
+                    <button class="shop-now">Shop Now</button>
+                </a>
+            </div>
+
 
         </div>
 
     </header>
     <!-- colors we're using are: 
 background-color: #090a0b
-buttons: #855757
-text: #f9bdbd -->
+buttons: #f0403d
+text: #afeafd-->
     <main>
         <section class="about-us">
             <h2>About Us</h2>
             <figure><img src="/e-commerce photos/Home Page Photos/kal-visuals-FtQE89f3EXA-unsplash.jpg"> </figure>
-            <p>We're a film crew based in Los Angeles who's passion is to filmmake and tell stories. We know that
-                some of this can be gatekept from aspiring artists, so we pulledd some strings to provide a selection of
+            <p>We're a film crew based in Los Angeles who's passion is to create and tell stories. We know that
+                some of this can be gatekept from aspiring artists, so we pulled some strings to provide a selection of
                 cameras and equipment for those just getting their feet wet.</p>
         </section>
         <section class="gallery">
             <h2>Gallery</h2>
-            <figure class="photo-carousel">
-                <img src="/e-commerce photos/Home Page Photos/miguel-angel-hernandez-4Kmvlc1M9rU-unsplash.jpg">
-                <img src="/e-commerce photos/Home Page Photos/sirisvisual-IcwAKUhNGXs-unsplash.jpg">
-                <img src="/e-commerce photos/Home Page Photos/billy-freeman-zrJH5NUEdOM-unsplash.jpg">
-                <img
-                    src="https://www.bhphotovideo.com/images/images2000x2000/arri_k1_0006383_alexa_sxt_plus_camera_1294537.jpg">
+            <figure class="carousel-container">
+                <div class="photo-item fade">
+                    <img src="/e-commerce photos/Home Page Photos/miguel-angel-hernandez-4Kmvlc1M9rU-unsplash.jpg">
+                </div>
+
+                <div class="photo-item fade">
+                    <img src="/e-commerce photos/Home Page Photos/sirisvisual-IcwAKUhNGXs-unsplash.jpg">
+                </div>
+
+                <div class="photo-item fade" id="biggest-photo">
+                    <img src="/e-commerce photos/Home Page Photos/billy-freeman-zrJH5NUEdOM-unsplash.jpg">
+                </div>
+
+                <div class="photo-item fade">
+                    <img
+                        src="https://www.bhphotovideo.com/images/images2000x2000/arri_k1_0006383_alexa_sxt_plus_camera_1294537.jpg">
+                </div>
+
+
+
             </figure>
 
         </section>

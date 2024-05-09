@@ -1,4 +1,241 @@
 * {
     margin: 0;
     padding: 0;
+    color: #afeafd;
+    /* color: #f9bdbd; */
+    font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Tourney';
+    src: url('Tourney/static/Tourney-Black.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-BlackItalic.ttf')format('truetype');
+    src: url('Tourney/static/Tourney-Bold.ttf')format('truetype');
+    src: url('Tourney/static/Tourney-BoldItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-ExtraBold.ttf')format('truetype');
+    src: url('Tourney/static/Tourney-ExtraBoldItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-ExtraLight.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-ExtraLightItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-Italic.ttf');
+    src: url('/Tourney/static/Tourney-Light.ttf')format('truetype');
+    src: url('Tourney/static/Tourney-LightItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-Medium.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-MediumItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-Regular.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-SemiBold.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-SemiBoldItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-Thin.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Black.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-BlackItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Bold.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-BoldItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ExtraBold.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ExtraBoldItalic.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ExtraLight.ttf')format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ExtraLightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Italic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Light.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-LightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Medium.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-MediumItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Regular.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-SemiBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-SemiBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Thin.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ThinItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Black.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-BlackItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Bold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-BoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ExtraLight.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ExtraLightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Italic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Light.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-LightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Medium.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-MediumItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Regular.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-SemiBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-SemiBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-Thin.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Condensed-ThinItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Black.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-BlackItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Bold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-BoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-ExtraBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-ExtraBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-ExtraLight.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-ExtraLightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Italic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Light.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-LightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Medium.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-MediumItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Regular.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-SemiBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-SemiBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-Thin.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_Expanded-ThinItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Black.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-BlackItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Bold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-BoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraLight.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraLightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Italic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Light.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-LightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Medium.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-MediumItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Regular.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-SemiBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-SemiBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-Thin.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiCondensed-ThinItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Black.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-BlackItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Bold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-BoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraLight.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraLightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Italic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Light.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-LightItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Medium.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-MediumItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Regular.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-SemiBold.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-SemiBoldItalic.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-Thin.ttf') format('truetype');
+    src: url('/Tourney/static/Tourney_SemiExpanded-ThinItalic.ttf') format('truetype');
+}
+
+/* this gives all images a border radius styling */
+img {
+    border-radius: 50px;
+}
+
+/* this takes off the hyperlink aesthic on the nav bar while also giving space in between the links */
+.navbar a {
+    text-decoration: none;
+    color: #afeafd;
+    list-style: none;
+    display: inline-block;
+}
+
+/* this puts the nav bar in a row */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translate(0, 5vh);
+}
+
+/* background color for the hero section. will replace with video soon */
+.hero-background {
+    min-height: 95vh;
+    width: 100%;
+    background-color: black;
+}
+
+.hero-header {
+    position: absolute;
+    top: 55%;
+    left: 14%;
+    /* transform: translate(-50%, -50%); */
+    text-align: left;
+}
+
+.hero-header h2 {
+    margin-bottom: 2%;
+}
+
+.hero-header h5 {
+    margin-bottom: 2%;
+}
+
+/* this moves the logo on the left side of the page to the left */
+#motion-logo {
+    position: absolute;
+    left: 150px;
+}
+
+/* this moves the nav links on the right side of the page to the right */
+#links {
+    position: absolute;
+    right: 150px;
+}
+
+/* this is for the shop now button */
+.shop-now {
+    background-color: #f0403d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.about-us {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* this is for the image in the about us page */
+.about-us img {
+    height: 100%;
+    width: 100%;
+}
+
+/* this is for the About us header */
+.about-us h2 {
+    position: relative;
+    margin: 10% 5%;
+    right: 25%;
+}
+
+/* this is the paragraph within the photo of the about us section */
+.about-us p {
+    padding: 0 20%;
+    position: relative;
+    bottom: 30vh;
+    left: 30%;
+}
+
+.gallery h2 {
+    position: relative;
+    margin: 10% 15%;
+}
+
+/* this is for the photo carousel*/
+.carousel-container {
+    position: relative;
+    margin: auto;
+}
+
+.photo-item img {
+    width: 30%;
+    height: 30%;
+}
+
+/* this helps size down the third photo. what's also happening is since this id is a child of the class photo-item, 80% means it's decreasing it self from the size perecentage that was set under the .photo-item class above */
+#biggest-photo {
+    width: 80%;
+    height: 80%;
+}
+
+/* this is for the footer links, it aligns them all in one row */
+footer p {
+    display: inline-block;
 }
