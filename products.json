@@ -101,11 +101,9 @@
         "cameraName": "Tilta Camera Cage Kit A for Canon C300 Mark III & C500 Mark II",
         "image": "https://www.bhphotovideo.com/images/images2500x2500/tilta_es_t19_a_camera_cage_kit_a_1625839.jpg",
         "price": 640,
-        "description": [
-            "4K capturing with oversampled 6K Full-frame Exmor R sensor",
-            "Dual Base ISO of 800/4000",
-            "Cinematic color science out of the box with S-Cinetone"
-        ]
+        "description": "4K capturing with oversampled 6K Full-frame Exmor R sensor",
+        "description2": "Dual Base ISO of 800/4000",
+        "description3": "Cinematic color science out of the box with S-Cinetone"
     },
     {
         "cameraName": "Blackmagic Design URSA Mini 4.6K Digital Cinema Camera (EF-Mount)",
