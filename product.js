@@ -11,6 +11,8 @@ http.onload = function () {
                 <img src="${item.image}" alt="${item.cameraName}">
                 <p id="cameraName">${item.cameraName}</p>
                 <p id="description">${item.description}</p>
+                <p id="description2">${item.description2}</p>
+                <p id="description3">${item.description3}</p>
                 <p id="price">$ ${item.price}</p>
             </div>
             `;

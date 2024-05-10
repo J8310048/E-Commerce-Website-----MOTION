@@ -94,6 +94,7 @@ h5 {
     border-radius: 30px;
     cursor: pointer;
     font-size: 25px;
+    font-family: 'Tourney-Bold';
 }
 
 .about-us {
@@ -122,8 +123,8 @@ h5 {
     position: relative;
     bottom: 30vh;
     left: 30%;
-    font-family: 'Tourney-Bold', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
 
 .gallery h2 {
