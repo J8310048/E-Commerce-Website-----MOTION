@@ -161,6 +161,25 @@ section h2 {
     top: 10vh;
 }
 
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(3, 400px);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+
+
+
+#products img {
+    height: 240px;
+    width: 350px;
+
+}
+
 footer p {
     display: inline-block;
 }
