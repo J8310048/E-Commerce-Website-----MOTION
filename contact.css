@@ -53,12 +53,17 @@ img {
     right: 150px;
 }
 
-/* this is for the About us header */
-main h2 {
+.contact-form {
     position: relative;
-    margin: 10% 5%;
-    left: 38%;
-    top: 40vh;
+    top: 20vh;
+}
+
+/* this is for the contact us header */
+#contactus-header {
+    position: relative;
+    text-align: center;
+    top: 30vh;
+    font-size: 30px;
 }
 
 main form {
@@ -96,3 +101,19 @@ input #name,
 footer p {
     display: inline-block;
 }
+
+@media screen and (min-width: 375px) and (max-width: 425px),
+(max-width: 757px) {
+    #contactus-header {
+        opacity: 0;
+    }
+
+    /* this moves the nav links on the right side of the page to the right */
+    #links {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 476px) {}

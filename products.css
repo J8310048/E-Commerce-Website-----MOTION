@@ -59,7 +59,7 @@ section h2 {
     /* margin: 10% 5%; */
     /* left: 36%; */
     text-align: center;
-    top: 20vh;
+    /* top: 20vh; */
     font-size: 60px;
 }
 
@@ -71,7 +71,13 @@ section h2 {
     align-items: center;
     justify-items: center;
     gap: 5px;
-    /* margin-bottom: 50px; */
+    margin-top: 500px;
+}
+
+#product-head {
+    position: relative;
+    text-align: center;
+    top: 30vh;
 }
 
 #products img {
@@ -164,8 +170,7 @@ footer p {
     }
 
     #products {
-        margin: 180px 10%;
-        position: relative;
-        align-items: center;
+        margin: 240px 18%;
+        display: block;
     }
 }

@@ -32,14 +32,17 @@
         </nav>
     </header>
 
-    <main>
-        <h2>contact us</h2>
+    <main class="contact-form">
+        <div id="contactus-header">
+            <h2>contact us</h2>
+        </div>
+
         <form name="form" onsubmit="return validate()">
             <label name="name" for="name">Name</label>
             <input type="text" id="name">
             <label name="email" for="email">Email</label>
             <input type="text" id="email">
-            <textarea name="message" rows="25" cols="100" placeholder="Insert text here..." id="message"
+            <textarea name="message" rows="18" cols="100" placeholder="Insert text here..." id="message"
                 type="text"></textarea>
             <input id="submit" type="submit" value="Submit">
         </form>
