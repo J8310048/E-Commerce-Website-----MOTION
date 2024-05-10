@@ -3,99 +3,81 @@
         "cameraName": "ARRI ALEXA SXT Plus",
         "image": "https://www.bhphotovideo.com/images/images2000x2000/arri_k1_0006383_alexa_sxt_plus_camera_1294537.jpg",
         "price": 7000,
-        "description": [
-            "35mm ARRI ALEV III CMOS Sensor",
-            "4K UHD 3840 x 2160 (Up-Sampled 3.2K)",
-            "Multiple 4/2.8/2.6/2K Anamorphic Modes",
-            "Built-In Remote Camera & Lens Control"
-        ]
+        "description": "35mm ARRI ALEV III CMOS Sensor",
+        "description2": "4K UHD 3840 x 2160 (Up-Sampled 3.2K)",
+        "description3": "Multiple 4/2.8/2.6/2K Anamorphic Modes",
+        "description4": "Built-In Remote Camera & Lens Control"
     },
     {
         "cameraName": "Sony PXW-Z190 4K 3-CMOS 1/3 inch Sensor XDCAM Camcorder",
         "image": "https://www.bhphotovideo.com/images/images2500x2500/sony_pxw_z190_4k_3_cmos_1_3_1400754.jpg",
         "price": 2000,
-        "description": [
-            "Three 1/3 Exmor R CMOS Sensors",
-            "4K 60p Recording",
-            "Integrated 25x Sony G Optical Zoom Lens",
-            "Electronic Variable ND Filter"
-        ]
+        "description": "Three 1/3 Exmor R CMOS Sensors",
+        "description2": "4K 60p Recording",
+        "description3": "Integrated 25x Sony G Optical Zoom Lens",
+        "description4": "Electronic Variable ND Filter"
     },
     {
         "cameraName": "Blackmagic Design URSA Cine 12K LF Camera (PL Mount)",
         "image": "https://www.bhphotovideo.com/images/images2500x2500/blackmagic_design_blursac12klf_ursa_cine_12k_camera_1823587.jpg",
         "price": 14000,
-        "description": [
-            "Large Format Full-Frame 12K Sensor",
-            "16 Stops of Dynamic Range",
-            "Blackmagic RAW up to 12K 3:2 Open Gate",
-            "Stream via RTMP/SRT via Wi-Fi/RJ45/USB-C"
-        ]
+        "description": "Large Format Full-Frame 12K Sensor",
+        "description2": "16 Stops of Dynamic Range",
+        "description3": "Blackmagic RAW up to 12K 3:2 Open Gate",
+        "description4": "Stream via RTMP/SRT via Wi-Fi/RJ45/USB-C"
     },
     {
         "cameraName": "Sony PXW-Z90V 4K HD Compact NXCAM Camcorder",
         "image": "https://m.media-amazon.com/images/I/718VPFpXDCL._AC_SX679_.jpg",
         "price": 1700,
-        "description": [
-            "Super-35mm CMOS Sensor",
-            "4608 x 2592 Video up to 60p",
-            "Compressed Raw Recording",
-            "Ready-to-Edit ProRes 444 + 422 Recording"
-        ]
+        "description": "Super-35mm CMOS Sensor",
+        "description2": "4608 x 2592 Video up to 60p",
+        "description3": "Compressed Raw Recording",
+        "description4": "Ready-to-Edit ProRes 444 + 422 Recording"
     },
     {
         "cameraName": "Sony PXW-Z90V 4K HD Compact NXCAM Camcorder",
         "image": "https://m.media-amazon.com/images/I/718VPFpXDCL._AC_SX679_.jpg",
         "price": 1700,
-        "description": [
-            "Fast Hybrid Auto Focus with advanced features",
-            "Instant HDR workflow w/ HLG",
-            "Super Slow/ S&Q Motion in Full HD XAVC 10-bit 4:2:2",
-            "2.4/5 GHz Wi-Fi networking with support for XDCAM Air production system"
-        ]
+        "description": "Fast Hybrid Auto Focus with advanced features",
+        "description2": "Instant HDR workflow w/ HLG",
+        "description3": "Super Slow/ S&Q Motion in Full HD XAVC 10-bit 4:2:2",
+        "description4": "2.4/5 GHz Wi-Fi networking with support for XDCAM Air production system"
     },
     {
         "cameraName": "Blackmagic Design Pocket Cinema Camera 6K G2",
         "image": "https://www.bhphotovideo.com/images/images2500x2500/blackmagic_design_pocket_cinema_camera_6k_1713293.jpg",
         "price": 1500,
-        "description": [
-            "Super 35 HDR Sensor, Gen 5 Color Science",
-            "Canon Active EF Mount, Mini XLR Inputs",
-            "5 inch Tilting LCD Touchscreen",
-            "Record 6K 6144 x 3456 up to 50 fps"
-        ]
+        "description": "Super 35 HDR Sensor, Gen 5 Color Science",
+        "description2": "Canon Active EF Mount, Mini XLR Inputs",
+        "description3": "5 inch Tilting LCD Touchscreen",
+        "description4": "Record 6K 6144 x 3456 up to 50 fps"
     },
     {
         "cameraName": "JVC 4KCAM GY-HM170U - camcorder - Fujinon - storage: flash card",
         "image": "https://webobjects2.cdw.com/is/image/CDW/4024902?$product-detail$",
         "price": 1600,
-        "description": [
-            "It can record with an Aspect Ratio of 16:9",
-            "Audio Signal Format Dolby Digital AC-3 which makes the quality Stereo",
-            "Record 6K 6144 x 3456 up to 50 fps",
-            "It can operate in humidity of 30 - 80%"
-        ]
+        "description": "It can record with an Aspect Ratio of 16:9",
+        "description2": "Audio Signal Format Dolby Digital, AC-3 which makes the quality Stereo",
+        "description3": "Record 6K 6144 x 3456 up to 50 fps",
+        "description4": "It can operate in humidity of 30 - 80%"
     },
     {
         "cameraName": "SonyFX6 Digital Cinema Camera Kit with 24-105mm Lens",
         "image": "https://cipher.dakiscdn.com/i/https://1410dd2bdd37e05ebf19-a2305060cc55ab8db83b1ef4b8835a6b.ssl.cf5.rackcdn.com/V5WugiDm8fMUWzmuuHmToA?w=572&h=572&p=1&a=1&q=display",
         "price": 7000,
-        "description": [
-            "High-definition 2.76 million-dot flexible LCD touch panel",
-            "Smart Handle with a Smart grip",
-            "Two CFexpress Type A-compatible media slots",
-            "Reliable durability and weather resistance in tough situations"
-        ]
+        "description": "High-definition 2.76 million-dot flexible LCD touch panel",
+        "description2": "Smart Handle with a Smart grip",
+        "description3": "Two CFexpress Type A-compatible media slots",
+        "description4": "Reliable durability and weather resistance in tough situations"
     },
     {
         "cameraName": "Sony PXW-FX9K XDCAM 6K Full-Frame Camera System With 28-135mm F/4 G OSS Lens",
         "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/sony_pxw_fx9vk_pxw_fx9k_xdcam_6k_full_frame_1568372784_1506006.jpg",
         "price": 10000,
-        "description": [
-            "4K capturing with oversampled 6K Full-frame Exmor R sensor",
-            "Dual Base ISO of 800/4000",
-            "Cinematic color science out of the box with S-Cinetone"
-        ]
+        "description": "4K capturing with oversampled 6K Full-frame Exmor R sensor",
+        "description2": "Dual Base ISO of 800/4000",
+        "description3": "Cinematic color science out of the box with S-Cinetone"
     },
     {
         "cameraName": "Tilta Camera Cage Kit A for Canon C300 Mark III & C500 Mark II",
@@ -106,14 +88,20 @@
         "description3": "Cinematic color science out of the box with S-Cinetone"
     },
     {
+        "cameraName": "Canon XA60 - Camcorder - 4K / 25 fps - 21.14 MP",
+        "image": "https://i5.walmartimages.com/seo/Canon-XA60-Camcorder-4K-25-fps-21-14-MP-20x-optical-zoom-flash-card_ef3ba8a0-aa66-4617-963e-baae5117a333.9bb4890f8ca02b6db317eb69eb2e9e06.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+        "price": 1500,
+        "description": "Compact professional 4K UHD camcorder",
+        "description2": "4K optical zoom lens",
+        "description3": "1/2.3-Type CMOS 4K camcorder with 20x optical zoom and 5-axis stabilization"
+    },
+    {
         "cameraName": "Blackmagic Design URSA Mini 4.6K Digital Cinema Camera (EF-Mount)",
         "image": "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/blackmagic_design_cineursam46k_ef_ursa_mini_4_6k_digital_1472816201_1137310.jpg",
         "price": 640,
-        "description": [
-            "Super-35mm CMOS Sensor",
-            "4608 x 2592 Video up to 60p",
-            "Compressed Raw Recording",
-            "Ready-to-Edit ProRes 444 + 422 Recording"
-        ]
+        "description": "Super-35mm CMOS Sensor",
+        "description2": "4608 x 2592 Video up to 60p",
+        "description3": "Compressed Raw Recording",
+        "description4": "Ready-to-Edit ProRes 444 + 422 Recording"
     }
 ]
