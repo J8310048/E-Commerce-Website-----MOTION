@@ -9,9 +9,9 @@ http.onload = function () {
             output += `
             <div>
                 <img src="${item.image}" alt="${item.cameraName}">
-                <p>${item.cameraName}</p>
-                <p>${item.description}</p>
-                <p>$ ${item.price}</p>
+                <p id="cameraName">${item.cameraName}</p>
+                <p id="description">${item.description}</p>
+                <p id="price">$ ${item.price}</p>
             </div>
             `;
         }

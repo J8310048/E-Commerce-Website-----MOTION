@@ -12,112 +12,12 @@ html {
 
 @font-face {
     font-family: 'Tourney';
-    src: url('Tourney/static/Tourney-Black.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-BlackItalic.ttf')format('truetype');
-    src: url('Tourney/static/Tourney-Bold.ttf')format('truetype');
-    src: url('Tourney/static/Tourney-BoldItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-ExtraBold.ttf')format('truetype');
-    src: url('Tourney/static/Tourney-ExtraBoldItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-ExtraLight.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-ExtraLightItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-Italic.ttf');
-    src: url('/Tourney/static/Tourney-Light.ttf')format('truetype');
-    src: url('Tourney/static/Tourney-LightItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-Medium.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-MediumItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-Regular.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-SemiBold.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-SemiBoldItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-Thin.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Black.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-BlackItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Bold.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-BoldItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ExtraBold.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ExtraBoldItalic.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ExtraLight.ttf')format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ExtraLightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Italic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Light.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-LightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Medium.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-MediumItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Regular.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-SemiBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-SemiBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Thin.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ThinItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Black.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-BlackItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Bold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-BoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ExtraLight.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ExtraLightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Italic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Light.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-LightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Medium.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-MediumItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Regular.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-SemiBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-SemiBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-Thin.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Condensed-ThinItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Black.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-BlackItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Bold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-BoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-ExtraBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-ExtraBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-ExtraLight.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-ExtraLightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Italic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Light.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-LightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Medium.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-MediumItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Regular.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-SemiBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-SemiBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-Thin.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_Expanded-ThinItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Black.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-BlackItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Bold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-BoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraLight.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-ExtraLightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Italic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Light.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-LightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Medium.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-MediumItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Regular.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-SemiBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-SemiBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-Thin.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiCondensed-ThinItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Black.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-BlackItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Bold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-BoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraLight.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-ExtraLightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Italic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Light.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-LightItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Medium.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-MediumItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Regular.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-SemiBold.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-SemiBoldItalic.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-Thin.ttf') format('truetype');
-    src: url('/Tourney/static/Tourney_SemiExpanded-ThinItalic.ttf') format('truetype');
+    src: url('Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Tourney-Bold';
+    src: url(/Tourney/static/Tourney_Condensed-Bold.ttf);
 }
 
 /* this gives all images a border radius styling */
@@ -157,8 +57,9 @@ img {
 section h2 {
     position: relative;
     margin: 10% 5%;
-    left: 38%;
+    left: 36%;
     top: 10vh;
+    font-size: 60px;
 }
 
 .products-container {
@@ -171,13 +72,24 @@ section h2 {
     gap: 5px;
 }
 
-
-
-
 #products img {
     height: 240px;
     width: 350px;
+}
 
+#cameraName {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Tourney-Bold';
+}
+
+#description {
+    font-size: 15px;
+    font-family: 'Tourney-Bold';
+}
+
+#price {
+    font-size: 20px;
 }
 
 footer p {
