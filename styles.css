@@ -163,6 +163,10 @@ footer p {
     display: inline-block;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 /* screen size for cell phone screens */
 @media screen and (min-width: 375px) and (max-width: 425px),
 (max-width: 500px) {
