@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #afeafd;
+    font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Tourney';
+    src: url('Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Tourney-Bold';
+    src: url(/Tourney/static/Tourney_Condensed-Bold.ttf);
+}
+
+/* this takes off the hyperlink aesthic on the nav bar while also giving space in between the links */
+.navbar a {
+    text-decoration: none;
+    color: #afeafd;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Tourney-Bold', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* this puts the nav bar in a row */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translate(0, 5vh);
+    font-family: 'Tourney-Bold', Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10%;
+}
+
+/* this moves the logo on the left side of the page to the left */
+#motion-logo {
+    position: absolute;
+    left: 150px;
+
+}
+
+/* this moves the nav links on the right side of the page to the right */
+#links {
+    position: absolute;
+    right: 150px;
+}
+
+/* this is for the footer links, it aligns them all in one row */
+footer p {
+    display: inline-block;
+    margin-top: 10%;
+}
+
+footer a {
+    text-decoration: none;
+}
