@@ -5,16 +5,18 @@
     font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* sets the background for the entire page */
 html {
-
     background-color: black;
 }
 
+/* this is the thin italic font */
 @font-face {
     font-family: 'Tourney';
     src: url('Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
 }
 
+/* this is the bold font */
 @font-face {
     font-family: 'Tourney-Bold';
     src: url(/Tourney/static/Tourney_Condensed-Bold.ttf);
@@ -27,6 +29,7 @@ html {
     list-style: none;
     display: inline-block;
     font-family: 'Tourney-Bold', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 
 /* this puts the nav bar in a row */
@@ -56,8 +59,20 @@ html {
 footer p {
     display: inline-block;
     margin-top: 10%;
+    font-size: 25px;
 }
 
+/* this takes off that undeline hyperlink look for the privacy page link */
 footer a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px),
+(max-width: 500px) {
+
+    /* this is for the footer links, it aligns them all in one row */
+    footer p {
+        display: inline-block;
+        font-size: 15px;
+    }
 }

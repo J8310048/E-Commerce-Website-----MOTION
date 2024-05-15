@@ -5,16 +5,18 @@
     font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* sets the background for the entire page */
 html {
-
     background-color: black;
 }
 
+/* this is the thin italic font */
 @font-face {
     font-family: 'Tourney';
     src: url('Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
 }
 
+/* this is the bold font */
 @font-face {
     font-family: 'Tourney-Bold';
     src: url(/Tourney/static/Tourney_Condensed-Bold.ttf);
@@ -31,6 +33,7 @@ img {
     color: #afeafd;
     list-style: none;
     display: inline-block;
+    font-size: 25px;
 }
 
 /* this puts the nav bar in a row */
@@ -53,6 +56,7 @@ img {
     right: 150px;
 }
 
+/* this pushes the form down from the top of the page */
 .contact-form {
     position: relative;
     top: 20vh;
@@ -63,47 +67,68 @@ img {
     position: relative;
     text-align: center;
     top: 30vh;
-    font-size: 30px;
+    font-size: 60px;
 }
 
+/* this gives the contact form a margin to keep it from getting too big while putting it in a column */
 main form {
     display: flex;
     flex-direction: column;
     margin: 30% 25%;
 }
 
+/* this sets the border radius and spacing in between all the forms while adjusting the font size for all the labels */
 form label,
 input,
 textarea {
-    margin: 10px 0px;
+    margin: 3% 10%;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
 }
 
-input #name,
+/* this helps push the text down from the top of the textarea */
+textarea {
+    padding-top: 20px;
+}
+
+/* this sets the font size for when you type in the form */
+#name,
 #email,
 #message {
     font-family: 'Tourney-Bold';
     color: black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* this is for the shop now button */
 #submit {
     background-color: #f0403d;
     border: none;
-    padding: 10px 20px;
+    padding: 3% 2%;
     border-radius: 30px;
     cursor: pointer;
     font-size: 25px;
     font-family: 'Tourney-Bold';
+    margin: 5% 30%;
 }
 
 /* this is for the footer links, it aligns them all in one row */
 footer p {
     display: inline-block;
+    font-size: 25px;
+}
+
+/* takes off that undeline hyperlink look on the privacy page */
+footer a {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 375px) and (max-width: 425px),
 (max-width: 757px) {
+
+    /* this hides the contact header */
     #contactus-header {
         opacity: 0;
     }
@@ -112,8 +137,52 @@ footer p {
     #links {
         display: flex;
         flex-direction: column;
+    }
 
+    /* this sets the border radius and spacing in between all the forms while adjusting the font size for all the labels */
+    form label,
+    input,
+    textarea {
+        margin: 3% 10%;
+        font-size: 20px;
+        border-radius: 30px;
+        border: none;
+        padding-left: 20px;
+    }
+
+    /* this helps push the text down from the top of the textarea */
+    textarea {
+        padding-top: 20px;
+    }
+
+    /* this sets the font size for when you type in the form */
+    #name,
+    #email,
+    #message {
+        font-family: 'Tourney-Bold';
+        color: black;
+        font-size: 15px;
+    }
+
+    /* this is for the submit button */
+    #submit {
+        background-color: #f0403d;
+        border: none;
+        padding: 3% 2%;
+        border-radius: 30px;
+        font-size: 25px;
+        font-family: 'Tourney-Bold';
+        margin: 5% 10%;
+    }
+
+    /* this is for the footer links, it aligns them all in one row */
+    footer {
+        display: inline-block;
+        margin-top: 15vh;
+    }
+
+    /* sets the font size for the entire footer */
+    footer p {
+        font-size: 15px;
     }
 }
-
-@media screen and (min-width: 375px) and (max-width: 476px) {}
