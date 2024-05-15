@@ -5,16 +5,18 @@
     font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* sets the background for the entire page */
 html {
-
     background-color: black;
 }
 
+/* this is the font I used that had a see through effect */
 @font-face {
     font-family: 'Tourney';
     src: url('Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
 }
 
+/* this font is the bold version of the above font */
 @font-face {
     font-family: 'Tourney-Bold';
     src: url(/Tourney/static/Tourney_Condensed-Bold.ttf);
@@ -25,10 +27,13 @@ img {
     border-radius: 50px;
 }
 
+/* this sets the size for "
+shoot your films with better quality" */
 h2 {
     font-size: 80px;
 }
 
+/* this sets the sizing for the "get cameras at the half the price" */
 h5 {
     font-family: 'Tourney-Bold', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -40,6 +45,7 @@ h5 {
     color: #afeafd;
     list-style: none;
     display: inline-block;
+    font-size: 25px;
 }
 
 /* this puts the nav bar in a row */
@@ -48,6 +54,7 @@ h5 {
     flex-direction: row;
     justify-content: space-between;
     transform: translate(0, 5vh);
+    background-color: none;
 }
 
 /* background color for the hero section. will replace with video soon */
@@ -61,7 +68,6 @@ h5 {
     position: absolute;
     top: 55%;
     left: 14%;
-    /* transform: translate(-50%, -50%); */
     text-align: left;
 }
 
@@ -123,44 +129,16 @@ h5 {
 .about-us p {
     padding: 0 20%;
     position: relative;
-    bottom: 30vh;
+    bottom: 25vh;
     left: 30%;
     font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
 }
 
-.gallery h2 {
-    position: relative;
-    margin: 10% 15%;
-}
-
-/* this is for the photo carousel*/
-.carousel-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.carousel-container img {
-    width: 30%;
-    height: 30%;
-}
-
-.photo-item img {
-    width: 80%;
-    height: 65%;
-}
-
-/* this helps size down the third photo. what's also happening is since this id is a child of the class photo-item, 80% means it's decreasing it self from the size perecentage that was set under the .photo-item class above */
-#biggest-photo {
-    width: 100%;
-    height: 100%;
-}
-
 /* this is for the footer links, it aligns them all in one row */
 footer p {
     display: inline-block;
+    font-size: 25px;
 }
 
 footer a {
@@ -170,9 +148,8 @@ footer a {
 /* screen size for cell phone screens */
 @media screen and (min-width: 375px) and (max-width: 425px),
 (max-width: 500px) {
-    .hero-background iframe {
-        width: 100%;
-        position: absolute;
+    .navbar a {
+        display: block;
     }
 
     /* Shoot your films with better quality */
@@ -201,7 +178,6 @@ footer a {
         position: relative;
         margin-top: 40vh;
         padding: 1px;
-        /* left: 30%; */
 
     }
 
@@ -213,32 +189,16 @@ footer a {
         right: 20%;
     }
 
-    .gallery {
-        margin: 0;
-    }
-
-    .gallery h2 {
-        position: relative;
-        font-size: 50px;
-    }
-
-    /* this is for the photo carousel*/
-    .carousel-container {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    footer p {
+        font-size: 20px;
     }
 
 }
 
 /* tablet screen size */
 @media screen and (min-width: 501px) and (max-width: 768px) {
-    .hero-background iframe {
-        width: 100%;
-        position: absolute;
+    .navbar a {
+        display: block;
     }
 
     /* Shoot your films with better quality */
@@ -279,22 +239,7 @@ footer a {
         right: 20%;
     }
 
-    .gallery {
-        margin: 0;
-    }
-
-    .gallery h2 {
-        position: relative;
-        font-size: 50px;
-    }
-
-    /* this is for the photo carousel*/
-    .carousel-container {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    footer p {
+        font-size: 20px;
     }
 }

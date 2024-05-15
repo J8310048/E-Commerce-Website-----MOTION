@@ -5,16 +5,18 @@
     font-family: 'Tourney', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* sets the background for the entire page */
 html {
-
     background-color: black;
 }
 
+/* this is the thin italic font */
 @font-face {
     font-family: 'Tourney';
     src: url('Tourney/static/Tourney-ThinItalic.ttf')format('truetype');
 }
 
+/* this is the bold font */
 @font-face {
     font-family: 'Tourney-Bold';
     src: url(/Tourney/static/Tourney_Condensed-Bold.ttf);
@@ -31,6 +33,7 @@ img {
     color: #afeafd;
     list-style: none;
     display: inline-block;
+    font-size: 25px;
 }
 
 /* this puts the nav bar in a row */
@@ -56,13 +59,11 @@ img {
 /* this is for the product header */
 section h2 {
     position: relative;
-    /* margin: 10% 5%; */
-    /* left: 36%; */
     text-align: center;
-    /* top: 20vh; */
     font-size: 60px;
 }
 
+/* this targets the div in the products.html file. It sets the grid for the products */
 .products-container {
     display: grid;
     grid-template-columns: repeat(4, 400px);
@@ -72,53 +73,75 @@ section h2 {
     justify-items: center;
     gap: 5px;
     margin-top: 500px;
+    margin-bottom: 100px;
 }
 
+/* this puts a margin around each product */
+.item {
+    margin: 30px;
+}
+
+/* this is for the Products header. It centers it while pushing it down from the nav bar */
 #product-head {
     position: relative;
     text-align: center;
     top: 30vh;
 }
 
+/* this sets the size for every product image */
 #products img {
     height: 240px;
     width: 350px;
 }
 
+/* this sets the font and font size for every product name */
 #cameraName {
-    font-size: 20px;
-    /* margin-bottom: 10px; */
+    font-size: 25px;
     font-family: 'Tourney-Bold';
 }
 
+/* this sets the font and font size for the first sentence description */
 #description {
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Tourney-Bold';
-    /* margin-bottom: 5px; */
 }
 
+/* this sets the font and font size for the first sentence description */
 #description2 {
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Tourney-Bold';
-    /* margin-bottom: 5px; */
 }
 
+/* this sets the font and font size for the first sentence description */
 #description3 {
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Tourney-Bold';
-    /* margin-bottom: 5px; */
 }
 
+/* this sets the font size for all the prices */
 #price {
-    font-size: 20px;
+    font-size: 30px;
 }
 
+/* this sets the font size and display for all the footer links */
 footer p {
     display: inline-block;
+    font-size: 25px;
+}
+
+/* this takes off that underline hyperlink for the privacy pages link */
+footer a {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 375px) and (max-width: 425px),
 (max-width: 500px) {
+
+    .navbar a {
+        display: block;
+    }
+
+    /* this targets the div in the products.html file. It sets the grid for the products */
     .products-container {
         display: flex;
         flex-direction: column;
@@ -127,7 +150,8 @@ footer p {
         justify-items: center;
     }
 
-    section h2 {
+    /* this is for the Products header. It centers it while pushing it down from the nav bar */
+    #product-head {
         position: relative;
         text-align: center;
         margin: 10% 5%;
@@ -136,21 +160,32 @@ footer p {
         font-size: 60px;
     }
 
+    /* this sets the size for every product image */
     #products img {
         height: 240px;
         width: 250px;
     }
 
+    /* this sets spacing for all the products so they'd be in one straight line going down the screen */
     #products {
         margin: 140px 20%;
     }
 
-    #product-head {
-        opacity: 0;
+    /* this sets the font size and display for all the footer links */
+    footer p {
+        display: inline-block;
+        font-size: 15px;
     }
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
+
+    .navbar a {
+        display: block;
+    }
+
+
+    /* this targets the div in the products.html file. It sets the grid for the products */
     .products-container {
         display: flex;
         flex-direction: row;
@@ -162,17 +197,20 @@ footer p {
         left: 10%;
     }
 
-    section h2 {
+    /* this is for the Products header. It centers it while pushing it down from the nav bar */
+    #product-head {
         position: relative;
         font-size: 60px;
         text-align: center;
     }
 
+    /* this sets the size for every product image */
     #products img {
         height: 240px;
         width: 350px;
     }
 
+    /* this sets spacing for all the products so they'd be in one straight line going down the screen */
     #products {
         margin: 240px 18%;
         display: block;
