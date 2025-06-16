@@ -1,3 +1,14 @@
+// NAV MENU CODE START
+const hamburgerMenu = document.querySelector(".hamburgerMenu");
+const links = document.querySelector(".links");
+
+// below toggles the class of the navlinks from hidden to show, so when the user clicks the hamburger menu, they will toggle the secondary class of navlinks 
+hamburgerMenu.addEventListener("click", () => {
+    links.classList.toggle("show");
+});
+
+// NAV MENU CODE END
+
 const http = new XMLHttpRequest(); // the object http allows for my website to communicate with a server 
 http.open('GET', 'products.json', true); // In this line, the expression is simply saying that it's GET-ting a request from my json file while confirming (the boolean value true) that yes it will continue running even if other things are running in the background
 http.send(); //this line is sending a request to the server

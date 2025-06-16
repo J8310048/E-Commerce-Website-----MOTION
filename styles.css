@@ -145,9 +145,75 @@ footer a {
     text-decoration: none;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+    /* this spaces out the three lines in the hamburger menu and organizes them into a column */
+    .hamburgerMenu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    /* this gives each line in the hamburger menu a color, height, and width */
+    #menuLine {
+        background-color: white;
+        width: 30px;
+        height: 3px;
+        border-radius: 10px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    /* this will be toggled through a click event for the hamburger menu. It shows the navigation links for mobile and smaller tablet screens*/
+    .show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        font-size: 20px;
+        row-gap: 10px;
+        padding: 5% 0;
+    }
+}
+
 /* screen size for cell phone screens */
 @media screen and (min-width: 375px) and (max-width: 425px),
 (max-width: 500px) {
+
+    /* this spaces out the three lines in the hamburger menu and organizes them into a column */
+    .hamburgerMenu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    /* this gives each line in the hamburger menu a color, height, and width */
+    #menuLine {
+        background-color: white;
+        width: 30px;
+        height: 3px;
+        border-radius: 10px;
+    }
+
+    #links {
+        display: none;
+    }
+
+    /* this will be toggled through a click event for the hamburger menu. It shows the navigation links for mobile and smaller tablet screens*/
+    .show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        font-size: 20px;
+        row-gap: 10px;
+        padding: 5% 0;
+    }
+
     .navbar a {
         display: block;
     }
